@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "843388027025",
+    "firebase_url": "https://findtheblood.firebaseio.com",
+    "project_id": "findtheblood",
+    "storage_bucket": "findtheblood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843388027025:android:60cbfdf842f232f6",
+        "android_client_info": {
+          "package_name": "com.example.findtheblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843388027025-v5gd52ne7c2rhem57dqfhua5tasns9hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findtheblood",
+            "certificate_hash": "353c3a5adec9618e68d167ad68c722b90860131a"
+          }
+        },
+        {
+          "client_id": "843388027025-2v0q5mlkml405v2gllf87kjvqu2rfo3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdIHPLsW7vSwMzSXYC5NB2xqEZBZH0d_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843388027025-2v0q5mlkml405v2gllf87kjvqu2rfo3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
