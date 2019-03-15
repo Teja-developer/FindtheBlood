@@ -2,8 +2,8 @@
     <string name="app_name">Find the Blood</string>
     <string-array name="bloodgrp">
         <item>Blood Group</item>
-        <item>0+</item>
-        <item>0-</item>
+        <item>O+</item>
+        <item>O-</item>
         <item>A+</item>
         <item>A-</item>
         <item>AB+</item>

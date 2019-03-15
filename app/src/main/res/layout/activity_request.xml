@@ -73,6 +73,27 @@
 
 
     <TextView
+        android:id="@+id/city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:text="City"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bgrp"
+        />
+
+    <EditText
+        android:id="@+id/city_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:hint="City"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city_text"
+        />
+    <TextView
         android:id="@+id/hosadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,7 +101,7 @@
         android:layout_marginTop="64dp"
         android:text="Hospital Address"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bgrp" />
+        app:layout_constraintTop_toBottomOf="@id/city_text" />
 
     <EditText
         android:id="@+id/hosnadd"
@@ -91,4 +112,18 @@
         android:hint="Name and Address"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hosadd" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hosnadd" />
 </android.support.constraint.ConstraintLayout>
