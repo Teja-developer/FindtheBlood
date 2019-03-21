@@ -142,10 +142,9 @@ public class PostItems {
         return name;
     }
 
-    public void setName(String likes) {
-        this.name = name;
+    public void setName(String name){
+        this.name=name;
     }
-
 
     public String getId() {
         return id;

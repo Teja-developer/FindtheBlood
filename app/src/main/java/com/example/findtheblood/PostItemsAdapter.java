@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -37,6 +38,7 @@ public class PostItemsAdapter  extends  RecyclerView.Adapter<PostItemsAdapter.Po
     private List<PostItems> items;
     private FirebaseFirestore db;
 
+    private Context t;
     PostItemsAdapter(Context context, List<PostItems> items) {
         this.context = context;
         this.items = items;
@@ -66,6 +68,7 @@ public class PostItemsAdapter  extends  RecyclerView.Adapter<PostItemsAdapter.Po
             postItemsViewHolder.p_post.setText(post.getAddress());
             postItemsViewHolder.title.setText(post.getName());
             postItemsViewHolder.phone.setText(post.getPhone());
+
             postItemsViewHolder.blood.setText(post.getBlood());
         }
 

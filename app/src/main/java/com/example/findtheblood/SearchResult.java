@@ -78,8 +78,8 @@ public class SearchResult extends AppCompatActivity {
                 if (!queryDocumentSnapshots.isEmpty()) {
 
                     List<DocumentSnapshot> list = queryDocumentSnapshots.getDocuments();
-
                     for (DocumentSnapshot d : list) {
+
                         PostItems p = d.toObject(PostItems.class);
 
                         assert p != null;
